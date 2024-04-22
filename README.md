@@ -18,7 +18,7 @@ A re-implementation of [Testcontainer Selenium/WebDriver](https://java.testconta
 * Improve creation of video filenames
 * Removed hard dependency on Selenium-Java.<br/>Only required when using ``CapabilitiesBrowserWebDriverContainer``
 * Everything can be ``@Override``n if required
-* Caches automatic Selenium version detection via classpath
+* Caches "Selenium version detection via classpath" so that it's not invoked everytime you build a new container
 
 ## Installation
 [Installation guide for the latest release](https://github.com/xdev-software/testcontainers-java-selenium/releases/latest#Installation)
